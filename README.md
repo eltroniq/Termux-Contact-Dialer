@@ -6,7 +6,7 @@ Useful if termux-contact-list returns empty.
 1. Export contacts via your contact app, should return a VCF file
 2. Edit "contact_path" variable in "dialer.py" to your desired path.<br>Default: ```contact_path = "~/contacts.vcf"```
 3. Make script executable:<br>```chmod +x dialer.py```
-4. Set alias (in .aliases or .bashrc/.zshrc) like this:<br>```alias call="~/dialer.py"```
+4. Set alias (in .aliases or .bashrc/.zshrc):<br>```alias call="~/dialer.py"```
 
 ### Usage
 ```call contact_name```
