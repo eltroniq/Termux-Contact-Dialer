@@ -21,7 +21,7 @@ for i3 in range(len(i1)):
   h1 = False
   h2 = False
   for i4 in range(i1[i3], i2[i3]+1):
-    l = linecache.getline('contacts1.vcf', i4)
+    l = linecache.getline(contact_path, i4)
     if l.find('FN:') >= 0 or l.find('FN;') >= 0:
       h1 = True
       if l.find('CHARSET=UTF-8;ENCODING=QUOTED-PRINTABLE:')>=0:
