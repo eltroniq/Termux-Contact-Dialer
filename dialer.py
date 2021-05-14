@@ -1,7 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/env python3
 import sys, os, linecache, codecs as c
 
-contact_path = "~/contacts.vcf"
+contact_path = '/data/data/com.termux/files/home/contacts.vcf'
 
 i = 0
 i1 = []
